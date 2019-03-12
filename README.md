@@ -1,6 +1,7 @@
 # task22
 task 22
 
+github: https://github.com/Vayra/task22/blob/master/README.md
 heroku link: thomahg-node.herokuapp.com
 
 
