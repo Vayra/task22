@@ -3,7 +3,22 @@ body {
     background-color: black;
 }
 
-h1, h2 {
+.links {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: beige;
+    align-content: center;
+}
+
+.links a:hover {
+    color: rgb(76, 193, 223)
+}
+
+table {
+    width: 100%;
+}
+
+h1, h2, th {
     color: whitesmoke;
     text-align: center;
 }
@@ -19,12 +34,8 @@ p {
     width: 45%;
 }
 
-#pic {
-    float: left;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 50px;
+#current {
+    color: rgb(189, 179, 44);
 }
 
 #desc {
@@ -34,7 +45,7 @@ p {
 
 .outer {
     display: table;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     height: 100%;
@@ -54,10 +65,7 @@ p {
 }
 
 a {
+    text-decoration-line: none;
     color:white;
 }
 
-a:hover {
-    color:red;
-    font-size: 150%;
-}
