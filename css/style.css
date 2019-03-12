@@ -1,0 +1,63 @@
+
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.kitty div {
+    float: left;
+    margin-left: 20px;
+    width: 45%;
+}
+
+#pic {
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+}
+
+#desc {
+    float: center;
+    text-align: center;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+  
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /*whatever width you want*/
+}
+
+a {
+    color:white;
+}
+
+a:hover {
+    color:red;
+    font-size: 150%;
+}
