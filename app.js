@@ -32,12 +32,12 @@ data.addKitty(
     "Murder Mittens", 
     "ancient beyond reckoning", 
     "This bad kitty has tormented the living since time immemorial. Knocks cups off tables for fun. ",
-    "http://localhost:8080/static/murdermittens.jpg")
+    "http://thomahg-node.herokuapp.com/static/murdermittens.jpg")
 data.addKitty(
     "Carnage Caracal",
     5,
     "DOOM of crows. Scourge of mice. Herald of clawed death. This little wind of death kills for pleasure, will not spare even the smallest of prey. ",
-    "http://localhost:8080/static/carnagecaracal.jpg")
+    "http://thomahg-node.herokuapp.com/static/carnagecaracal.jpg")
 
 const express = require('express');
 
